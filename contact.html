@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact and Preorders | North Star Bakery</title>
 <link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -34,7 +35,8 @@
       <p id="form-note">Required fields are marked with (required).
         This classroom form demonstrates validation only. It does not send
         a request or reserve an order. Do not enter real personal information.</p>
-      <form action="contact.html" method="get" aria-describedby="form-note">
+      <p id="saved-favorites"></p>
+      <form id="request-form" action="contact.html" method="get" aria-describedby="form-note">
         <fieldset>
           <legend>Your contact information</legend>
           <p>
@@ -74,7 +76,8 @@
           </p>
         </fieldset>
         <button type="submit">Check demo request</button>
-      </form>
+      <p id="form-status" role="status"></p>
+</form>
     </section>
   </div></main>
   <footer>

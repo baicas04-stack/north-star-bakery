@@ -82,3 +82,10 @@ footer p { max-width: 1150px; margin: 0 auto .4rem; font-size: .85rem; }
   .contact > section:first-child { flex: 1; }
   .contact > section:last-child { flex: 2; }
 }
+
+#favorites-feature { margin-bottom: 2rem; }
+#favorite-options { display: flex; flex-wrap: wrap; gap: .7rem; margin-bottom: 1rem; }
+#favorite-options button[aria-pressed="true"] { background: var(--charcoal); }
+.field-error { color: var(--brown); font-weight: bold; display: block; margin-top: .3rem; }
+[aria-invalid="true"] { border: 2px solid var(--brown); }
+#form-status { margin-top: 1rem; font-weight: bold; }
